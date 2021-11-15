@@ -1,3 +1,13 @@
 body{
     background-color: antiquewhite;
 }
+h1{
+    color:red;
+    font-size: 2em;
+}
+p{
+    background-color: lightblue;
+}
+.para{
+    color:red;
+}

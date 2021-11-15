@@ -6,11 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    
    
 </head>
 <body>
     <h1 id="heading1">First Commit</h1>
-    
+    <p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, veritatis quas? Perspiciatis culpa dolorem adipisci vero ea ipsa ex voluptatibus nobis. Perspiciatis, laborum consequatur minima totam nihil et unde possimus.</p>
  
+
+    <script>
+     var newdiv=document.createElement('div');
+
+    newdiv.setAttribute('class','para');
+    console.log(newdiv);
+    var newtext=document.createTextNode("Insert Div class=para");
+    console.log(newtext);
+
+    document.body.appendChild(newdiv);
+    newdiv.appendChild(newtext);
+    </script>
 </html>
